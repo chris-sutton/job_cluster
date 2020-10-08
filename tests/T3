@@ -1,0 +1,21 @@
+#!/bin/sh
+
+rm -f OUTPUT/*
+
+# cp HOSTS HOSTS
+cp CMDS3 CMDS
+
+echo
+echo RMB starting
+echo
+
+/usr/bin/time -p  ./p4 
+
+echo
+echo RMB OUTPUT
+cat OUTPUT/*
+echo
+
+echo
+echo `pwd`  "  DONE"
+echo

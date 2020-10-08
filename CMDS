@@ -1,0 +1,4 @@
+echo `date`; sleep 1
+echo `date`; sleep 1
+echo `date`; sleep 1
+echo "done".
