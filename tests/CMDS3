@@ -1,9 +1,0 @@
-(echo "job3"; echo `date`; sleep 3; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file3
-(echo "job2"; echo `date`; sleep 2; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file2
-(echo "job1"; echo `date`; sleep 1; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file1
-(echo "job8"; echo `date`; sleep 8; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file8
-(echo "job9"; echo `date`; sleep 9; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file9
-(echo "job7"; echo `date`; sleep 7; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file7
-(echo "job5"; echo `date`; sleep 5; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file5
-(echo "job4"; echo `date`; sleep 4; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file4
-(echo "job6"; echo `date`; sleep 6; echo `date`) > /nfshome/rbutler/TMP/OUTPUT/file6
